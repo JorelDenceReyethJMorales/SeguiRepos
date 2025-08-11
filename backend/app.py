@@ -11,7 +11,8 @@ def create_app():
 
     app.register_blueprint(upload_bp)
     app.register_blueprint(generate_bp)
-
+    # jordsa
+    
     return app
 
 app = create_app()
